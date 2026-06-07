@@ -1,34 +1,10 @@
 const serviceCards = [
-  {
-    emoji: '✂️',
-    name: 'Shrub Trimming',
-    description: 'Clean cuts, shaped to your property. Priced per shrub so you know exactly what you are paying.',
-  },
-  {
-    emoji: '🌳',
-    name: 'Tree Trimming',
-    description: 'Small, medium, and large trees. We clear deadwood, improve shape, and haul everything out.',
-  },
-  {
-    emoji: '🪚',
-    name: 'Tree Removal',
-    description: 'Full removal from stump to cleanup. Safe, efficient, no surprises on price.',
-  },
-  {
-    emoji: '🪨',
-    name: 'Mulch Installation',
-    description: 'Fresh mulch keeps beds clean, holds moisture, and makes the whole yard look sharp.',
-  },
-  {
-    emoji: '🌱',
-    name: 'Sod Installation',
-    description: 'Replace patchy or dead grass with fresh sod. We prep the ground and lay it right.',
-  },
-  {
-    emoji: '🍂',
-    name: 'Seasonal Cleanup',
-    description: 'Spring and fall cleanups that reset your property for the season ahead.',
-  },
+  { id: 'shrub-trimming',    emoji: '✂️', name: 'Shrub Trimming',    description: 'Clean cuts, shaped to your property. Priced per shrub so you know exactly what you are paying.' },
+  { id: 'tree-trimming',     emoji: '🌳', name: 'Tree Trimming',     description: 'Small, medium, and large trees. We clear deadwood, improve shape, and haul everything out.' },
+  { id: 'tree-removal',      emoji: '🪚', name: 'Tree Removal',      description: 'Full removal from stump to cleanup. Safe, efficient, no surprises on price.' },
+  { id: 'mulch-installation',emoji: '🪨', name: 'Mulch Installation', description: 'Fresh mulch keeps beds clean, holds moisture, and makes the whole yard look sharp.' },
+  { id: 'sod-installation',  emoji: '🌱', name: 'Sod Installation',  description: 'Replace patchy or dead grass with fresh sod. We prep the ground and lay it right.' },
+  { id: 'seasonal-cleanup',  emoji: '🍂', name: 'Seasonal Cleanup',  description: 'Spring and fall cleanups that reset your property for the season ahead.' },
 ]
 
 export default function Services() {
@@ -43,7 +19,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {serviceCards.map((card) => (
             <div
-              key={card.name}
+              key={card.id}
               className="bg-surface border border-edge rounded-xl p-6 hover:border-stone/50 transition-colors"
             >
               <span className="text-3xl mb-4 block">{card.emoji}</span>
