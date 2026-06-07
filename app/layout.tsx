@@ -32,7 +32,7 @@ const jsonLd = {
   '@type': 'LocalBusiness',
   name: 'Elm & Stone Landscaping',
   description: 'Cleveland landscaping and tree services.',
-  telephone: '+12165550140',
+  telephone: '+12165550140', // demo placeholder — replace with real number before production
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Cleveland',
