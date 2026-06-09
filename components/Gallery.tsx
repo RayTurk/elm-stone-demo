@@ -4,8 +4,8 @@ const photos = [
   { id: 'photo-1558618666-fcd25c85cd64', alt: 'Neatly trimmed hedges and lush garden beds',         aspect: 'aspect-[4/3]'  },
   { id: 'photo-1416879595882-3373a0480b5b', alt: 'Flowering garden path through manicured grounds', aspect: 'aspect-square' },
   { id: 'photo-1592417817098-8fd3d9eb14a5', alt: 'Professional landscaping with ornamental plants', aspect: 'aspect-[4/3]'  },
-  { id: 'photo-1585320806297-9794b3e4aaae', alt: 'Fresh mulch installation in garden beds',          aspect: 'aspect-square' },
-  { id: 'photo-1572912839654-e59cdc90e4f3', alt: 'Lush green lawn after seasonal cleanup',           aspect: 'aspect-[4/3]'  },
+  { id: 'photo-1604176857875-cdbd7dfc3b7a', alt: 'Fresh mulch installation in garden beds',          aspect: 'aspect-square' },
+  { id: 'photo-1558904541-efa843a96f01',  alt: 'Lush green lawn after seasonal cleanup',           aspect: 'aspect-[4/3]'  },
   { id: 'photo-1508739773434-c26b3d09e071', alt: 'Clean cut lawn edging and turf',                   aspect: 'aspect-square' },
 ]
 
